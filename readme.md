@@ -21,7 +21,7 @@ The goals / steps of this project are the following:
 [image6]: ./german-traffic-sign-from-web/test3.jpg "Traffic Sign 3"
 [image7]: ./german-traffic-sign-from-web/test4.jpg "Traffic Sign 4"
 [image8]: ./german-traffic-sign-from-web/test5.jpg "Traffic Sign 5"
-[image10]: ./writeup/34798.png "Sample traffic sign"
+[image10]: /writeup/34798.png "Sample traffic sign"
 [image11]: ./writeup/data_distribution.png "Training data distribution"
 
 ###Data Set Summary & Exploration
