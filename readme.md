@@ -61,7 +61,7 @@ I also tried the luminus formula (max(RGB) - min(RGB))/2, but the training resul
 
 As last step, I normalized the image data because it will generate a balanced input and prevent overfitting.
 
-I also generated additional data because the distribution of the training labels is not even. For those occurence < median labels, I rotated the train/validation image with a random angle and append to the train/validation data set, which brought ~6000 new images. This rotation idea is from the original LeNet paper by LeCun. Total ??
+I also generated additional data because the distribution of the training labels is not even. For those occurence < median labels, I rotated the train/validation image with a random angle and append to the train/validation data set, which brought ~6000 new images. This rotation idea is from the original LeNet paper by LeCun.
 
 I saved the normalized data to binary to save future normalizing time by loading them directly instead of preprocess the original dataset again.
 
